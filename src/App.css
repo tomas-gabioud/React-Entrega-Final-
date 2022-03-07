@@ -1,0 +1,620 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2084%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(6%2c 48%2c 65%2c 1)'%3e%3c/rect%3e%3cpath d='M83 184L82 -190' stroke-width='6' stroke='url(%23SvgjsLinearGradient2085)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M369 537L368 688' stroke-width='10' stroke='url(%23SvgjsLinearGradient2085)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1197 125L1196 430' stroke-width='10' stroke='url(%23SvgjsLinearGradient2085)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M599 534L598 127' stroke-width='8' stroke='url(%23SvgjsLinearGradient2085)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M69 111L68 318' stroke-width='6' stroke='url(%23SvgjsLinearGradient2085)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M214 365L213 163' stroke-width='10' stroke='url(%23SvgjsLinearGradient2086)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M171 353L170 593' stroke-width='8' stroke='url(%23SvgjsLinearGradient2087)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M387 52L386 440' stroke-width='8' stroke='url(%23SvgjsLinearGradient2088)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1113 379L1112 195' stroke-width='8' stroke='url(%23SvgjsLinearGradient2087)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M679 418L678 714' stroke-width='10' stroke='url(%23SvgjsLinearGradient2087)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M739 245L738 589' stroke-width='10' stroke='url(%23SvgjsLinearGradient2088)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1344 34L1343 -215' stroke-width='8' stroke='url(%23SvgjsLinearGradient2086)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M193 391L192 566' stroke-width='10' stroke='url(%23SvgjsLinearGradient2089)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M23 228L22 -49' stroke-width='10' stroke='url(%23SvgjsLinearGradient2088)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M682 72L681 -146' stroke-width='10' stroke='url(%23SvgjsLinearGradient2087)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M281 470L280 102' stroke-width='10' stroke='url(%23SvgjsLinearGradient2086)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1379 386L1378 182' stroke-width='8' stroke='url(%23SvgjsLinearGradient2090)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1183 29L1182 249' stroke-width='10' stroke='url(%23SvgjsLinearGradient2088)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1028 462L1027 804' stroke-width='8' stroke='url(%23SvgjsLinearGradient2091)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M799 109L798 488' stroke-width='8' stroke='url(%23SvgjsLinearGradient2085)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1052 332L1051 118' stroke-width='8' stroke='url(%23SvgjsLinearGradient2085)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M669 348L668 699' stroke-width='6' stroke='url(%23SvgjsLinearGradient2085)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M711 416L710 205' stroke-width='10' stroke='url(%23SvgjsLinearGradient2092)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1078 405L1077 687' stroke-width='10' stroke='url(%23SvgjsLinearGradient2089)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M780 242L779 440' stroke-width='6' stroke='url(%23SvgjsLinearGradient2088)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M467 124L466 477' stroke-width='6' stroke='url(%23SvgjsLinearGradient2088)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M767 191L766 332' stroke-width='10' stroke='url(%23SvgjsLinearGradient2087)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M381 233L380 -115' stroke-width='10' stroke='url(%23SvgjsLinearGradient2089)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M328 151L327 568' stroke-width='10' stroke='url(%23SvgjsLinearGradient2085)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M616 168L615 -214' stroke-width='10' stroke='url(%23SvgjsLinearGradient2085)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1427 85L1426 -76' stroke-width='6' stroke='url(%23SvgjsLinearGradient2089)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M660 2L659 -378' stroke-width='10' stroke='url(%23SvgjsLinearGradient2088)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1304 173L1303 -3' stroke-width='10' stroke='url(%23SvgjsLinearGradient2091)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1114 321L1113 58' stroke-width='8' stroke='url(%23SvgjsLinearGradient2089)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M303 514L302 915' stroke-width='8' stroke='url(%23SvgjsLinearGradient2086)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M718 518L717 677' stroke-width='8' stroke='url(%23SvgjsLinearGradient2087)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2084'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient2085'%3e%3cstop stop-color='rgba(9%2c 183%2c 128%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(9%2c 183%2c 128%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='0%25' x2='0%25' y2='100%25' id='SvgjsLinearGradient2086'%3e%3cstop stop-color='rgba(165%2c 40%2c 40%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(165%2c 40%2c 40%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='0%25' x2='0%25' y2='100%25' id='SvgjsLinearGradient2087'%3e%3cstop stop-color='rgba(9%2c 183%2c 128%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(9%2c 183%2c 128%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient2088'%3e%3cstop stop-color='rgba(14%2c 179%2c 181%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(14%2c 179%2c 181%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='0%25' x2='0%25' y2='100%25' id='SvgjsLinearGradient2089'%3e%3cstop stop-color='rgba(28%2c 83%2c 142%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='%231c538e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient2090'%3e%3cstop stop-color='rgba(28%2c 83%2c 142%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='%231c538e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient2091'%3e%3cstop stop-color='rgba(165%2c 40%2c 40%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(165%2c 40%2c 40%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='0%25' x2='0%25' y2='100%25' id='SvgjsLinearGradient2092'%3e%3cstop stop-color='rgba(14%2c 179%2c 181%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(14%2c 179%2c 181%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 15em;
+  min-height: 100vh;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+/* Estilos NavBar  */
+
+.NavBar{
+  height: 8vh;
+  background-color: rgb(56, 255, 245, 0.4);
+  display: flex;
+}
+
+.NavBar ul{
+  width: 90%;
+  font-size: x-large;
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.NavBar ul a{
+  text-decoration: none;
+}
+
+.NavBar ul li a:hover{
+  color: rgb(198, 198, 235);
+}
+
+/*   Estilos De lista de productos  */
+
+.lista-productos li{
+  display: none;
+}
+
+
+
+
+/*  Home Style  */
+
+.container-home{
+  width: 100%;
+  height: 900px;
+  background-image: url("https://i.pinimg.com/564x/12/d6/c0/12d6c08b32a0433401dc5097c17f4b52.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: flex;
+}
+.image-home{
+  width: 800px;
+  height: 500px;
+  margin-left: auto;
+  margin: auto;
+}
+.div-homeUno{
+  display: flex;
+  margin: 160px auto;
+}
+.div-homeHTres{
+  width: 300px;
+  font-size: 26px;
+  color: rgb(253, 253, 253);
+  margin: 150px auto;
+  position: absolute;
+  align-items: center;
+  top: 260px; left: 210px;
+}
+.div-homeDos{
+  display: flex;
+  margin: auto;
+}
+.text-home{
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+}
+.button-home{
+  width: 170px;
+  height: 80px;
+  font-size: 22px;
+  background-color: rgb(38, 209, 209, 0.4);
+  color: white;
+  border-radius: 50px;
+}
+.button-home:hover{
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-top: 2px solid rgb(255, 255, 255);
+}
+
+.section-home{
+  width: 100%;
+  display: flex;
+  background-color: #080808;
+}
+.section-div-home{
+  margin: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.ul-home{
+  display: flex;
+  list-style-type: none;
+}
+.marcas-home{
+  display: flex;
+  margin: 15px;
+}
+.marcas-home img{
+  width: 450px;
+  height: 350px;
+}
+
+
+/*  Imagenes en Home  */
+.home-section{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.home-section-div{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+.basilisco img{
+  width: 350px;
+  height: 300px ;
+}
+.drake img{
+  width: 350px;
+  height: 300px ;
+}
+
+.fenix img{
+  width: 350px;
+  height: 300px ;
+}
+.hulk img{
+  width: 350px;
+  height: 300px ;
+}
+
+/* Estilos Widgets Dentro de la NavBar */
+
+/*  Estilo Widget Cart Stock  */
+.carrito{
+  color:  rgb(3, 61, 3);
+  font-size: 15px;
+  width: 0px;
+  height: 0px;
+  position: relative;
+  bottom: 55px;
+  left: 32px;
+}
+
+.cart{
+  width: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart img{
+  width: 50px;
+  height: 50px;
+}
+.cart a{
+  width: 50px;
+  height: 50px;
+}
+
+
+.Login{
+  width: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Login img{
+  width: 100%;
+  height: 50px;
+}
+
+.Login a{
+  width: 50px;
+  height: 50px;
+}
+
+/*  Cart-Logica  */
+.cart-text{
+  text-align: center;
+  color: white;
+}
+
+.cart-item{
+  color:  white;
+  text-align: center;
+}
+
+.card-main{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  border: 2px solid black;
+}
+.cart-image img{
+  max-width: 250px ;
+
+}
+.cart-tittle{
+  color: black;
+}
+
+.change-flex-row{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.coleccion-card-detail-dos{
+  color: rgb(206, 21, 21);
+}
+
+.cart-info{
+  color: black;   
+}
+.cart-price{
+  color: black;
+  text-align: center;
+}
+
+.div-price-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.clean-cart{
+  background-color: rgba(95, 8, 8, 0.452);
+  color: white;
+  width: 250px;
+  height: 45px;
+  border: 2px solid red;
+}
+
+.buy-cart{
+  background-color: rgba(6, 56, 6, 0.452);
+  color: white;
+  width: 250px;
+  height: 45px;
+  border: 2px solid rgb(16, 211, 16);
+}
+
+/*  Return to Products  */
+.return {
+  text-align: center;
+  background: rgb(75, 223, 173, 0.4); 
+  border: 2px solid #000000; 
+  padding: 16px 20px;
+  border-radius: 16px; 
+  position: relative;
+  left: 42.5%;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  margin: 35px;
+}
+.return a{
+  color: #1c1d1c;
+}
+
+
+.return a:hover {
+  color: rgb(255, 255, 255);/* color de fuente hover */
+}
+.return::after {
+  content: "";
+  background-image: linear-gradient(rgb(233, 42, 8),  rgb(13, 158, 168), rgb(22, 197, 104));
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: scale(0, 0) rotate(-180deg);
+  transition: all 0.3s ease;
+}
+.return:hover::after {
+  transition: all 0.3s ease-out;
+  transform: scale(1, 1) rotate(0deg);
+}
+
+.cart-price-total{
+  width: 300px;
+  color: white;
+  font-size: 16px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-cantidad-logic{
+  color:rgb(0, 0, 0);
+  font-size: 16px;
+  text-align: center;
+}
+
+.cart-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.trash-image img{
+  width: 150px;
+}
+
+/* Styles Funkos  */
+
+.main-funko{
+  width: 100vw;
+  display: inline-flex;
+  justify-content: center;
+
+}
+
+.funko-card{
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
+.funko-cardDos{
+  background: linear-gradient(rgb(140, 201, 198),rgb(52, 107, 107, 0.7)) ;
+  width: 445px;
+  display: inline-block;
+}
+.gridDos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.funko-card img{
+  margin: 2.5px;
+  width: 440px;
+  height: 440px;
+  border-radius: 15px;
+}
+
+.tittle-card{
+color: white;
+text-align: center;
+font-size: 30px;
+}
+
+.coleccion-card{
+  color: rgb(42, 94, 18);
+  text-align: center;
+}
+
+.precio-card{
+  margin: 5px;
+  color: white;
+  text-align: center;
+}
+
+.main-funko{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
+/* Boton ver detalle  */
+.button-detail{
+  margin: 5px;
+  width: 100px;
+  height: 35px;
+  background-color: rgb(56, 255, 245, 0.4);
+  border: 2px solid white;
+}
+.button-detail-link{
+  text-decoration: none;
+  color: rgb(198, 198, 235);
+}
+
+.button-detail-link:hover{
+  color:  black;
+}
+
+.button-add-cart{
+  width: 100px;
+  height: 35px;
+  color: rgb(198, 198, 235);
+  background-color: rgb(56, 255, 245, 0.4);
+  border: 2px solid white;
+  display: flex;
+  margin: 0 auto;
+}
+.button-add-cart:hover{
+  color:  black;
+}
+
+.button-ver-carrito{
+  width: 100px;
+  height: 35px;
+  background-color: rgb(56, 255, 245, 0.4);
+  border: 2px solid white;
+}
+.button-ver-carrito-link{
+  text-decoration: none;
+  color: rgb(198, 198, 235);
+}
+.button-ver-carrito-link:hover{
+  color:  rgb(0, 0, 0);
+}
+
+
+/*  Boton + / -  / Contador de la cantidad de stock  */
+
+.button-more-less{
+  display: flex;
+  margin: 5px auto;
+  font-size: 24px;
+  width: 100px;
+  justify-content: center;
+  background-color: rgb(56, 255, 245, 0.4);
+  border: 2px solid white;
+}
+.button-more-less:hover{
+  background-color: black;
+  color: white;
+}
+.button-amount{
+  color: rgb(148, 238, 145);
+  display: flex;
+  justify-content: center;
+}
+
+/* Funko Detail */
+.image-card-detail{
+  width: 500px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.tittle-card-detail{
+  color: white;
+  text-align: center;
+}
+.coleccion-card-detail{
+color: white;
+text-align: center;
+}
+.alto-card-detail{
+  color: white;
+  text-align: center;
+}
+.peso-card-detail{
+  color: white;
+  text-align: center;
+}
+
+.precio-card-detail{
+color:rgb(47, 209, 47);
+text-align: center;
+}
+
+
+.button-detail-cart{
+  display: flex;
+  margin: 5px auto;
+  font-size: 24px;
+  justify-content: center;
+  background-color: rgb(56, 255, 245, 0.4);
+  border: 2px solid white;
+}
+
+.button-detail-cart a{
+  color: aqua;
+}
+
+
+/*  Formulario    */
+.formulario-de-compra{
+  width: 400px;
+  background-color: rgba(160, 19, 6, 0.486);
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #04102e;
+}
+.formulario-text{
+  color: wheat;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.formulario-input{
+  width: 100%;
+  color: white;
+  background-color: #071e58;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid rgb(97, 96, 92);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+
+.formulario-button{
+  height: 40px;
+  font-size: 18px;
+  width: 100%;
+  background-color: rgb(24, 109, 109);
+  border: none;
+  padding: 12px;
+  color: wheat;
+  margin: 16px 0;
+}
+
+
+
+
+/* Footer   */
+.footer{
+  background-color: #000000;
+  height: 130px;
+  width: 100%;
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+}
+.footer-div{
+  color: wheat;
+  display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.facebook{
+  font-size: 32px;
+}
+.twitter{
+  font-size: 32px;
+}
+.whatsapp{
+  font-size: 32px;
+}
+.instagram{
+  font-size: 32px;
+}
+
+
+
+.footer-p{
+  color: white;
+  margin: 24px;
+  text-align: center;
+}
+
+
+
+
+/*  end page */
+
+
+.orden{
+  font-family: 'Times New Roman', Times, serif;
+  color: wheat;
+  font-size: 16px;
+  text-align: center;
+}
+
+.goHome{
+  text-align: center;
+  margin: 25px;
+}
+
+.goHome button{
+  background-color: #04102e4a;
+  color: wheat;
+  width: 155px;
+  height: 45px;
+  border: 2px solid black ;
+}
+
+.goHome button:hover{
+  width: 155px;
+  height: 45px;
+  background-color: wheat;
+  color: #04102e;
+}
